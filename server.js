@@ -1,9 +1,8 @@
-const PORT = 8000 //specify port for backend
-//specicy port for backend resources
-const axios = require('axios').default //getting data from node
-const express = require('express') //express.js backend
-const app = express() //express function and routes app.get / app.put / app.post
-const cors = require('cors') //cross origin resource sharing / relax security feature from browser
+const PORT = 8000 
+const axios = require('axios').default 
+const express = require('express') 
+const app = express() 
+const cors = require('cors') 
 app.use(cors())
 require('dotenv').config()
 
@@ -11,7 +10,8 @@ require('dotenv').config()
 //express route GET
 app.get('/flights', (req, res)=> {
  const options = {
-    url: `${process.env.URL}?page-size=20`, //template literal
+    url: `${process.env.URL}?page-size=20`, 
+    //template literal
     headers: {
         accept: 'application/json',
         'X-Cassandra-Token': process.env.KEY
