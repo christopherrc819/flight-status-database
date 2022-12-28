@@ -14,7 +14,7 @@ const TableBody = ()=> {
       .then((flights)=> setFlights(Object.values(flights.data)))
       .catch(error => console.log(error))
     }
-// Object value, removes key from object
+// Object value, removes key from object items in array
     useEffect(()=> getFlights(), [])
     console.log(flights)
 

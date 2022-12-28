@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(251, 199, 127);
+    background-color: rgb(240,240,240);
 }
 
 header { 
@@ -75,4 +75,20 @@ header {
     100% {
         tranform: rotate(0deg);
     }
+}
+
+.green {
+    color: #008f45;
+}
+
+.orange {
+    color: #fbc77f
+}
+
+.red {
+    color: #AC393D;
+}
+
+.blue {
+    color: #063dff;
 }

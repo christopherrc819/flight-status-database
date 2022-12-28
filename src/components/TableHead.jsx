@@ -3,11 +3,11 @@ const TableHead = ()=> {
       <thead>
         <tr>
           <th></th>
-          <th id='time'>TIME</th>
+          <th class='blue' id='time'>TIME</th>
           <th id='destination'>DESTINATION</th>
-          <th id='flight'>FLIGHT</th>
+          <th class='orange' id='flight'>FLIGHT</th>
           <th id='gate'>GATE</th>
-          <th id='remarks'>REMARKS</th>
+          <th class='red'id='remarks'>REMARKS</th>
         </tr>
       </thead>
     )

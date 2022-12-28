@@ -2,7 +2,7 @@ import Table from './components/Table'
 const App = ()=> {
   return (
     <div class='departures'>
-      <header>DEPARTURES</header>
+      <header class='green'>DEPARTURES</header>
       <Table />
     </div>
   )
